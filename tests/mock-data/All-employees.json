@@ -1,0 +1,13 @@
+[{
+        "empId": "1",
+        "name": "Sachin",
+        "designation": "Trainee",
+        "department": "IT"
+    },
+    {
+        "empId": "2",
+        "name": "Nalin",
+        "designation": "Trainee",
+        "department": "IT"
+    }
+]

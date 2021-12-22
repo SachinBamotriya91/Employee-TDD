@@ -1,0 +1,30 @@
+{
+    "name": "employee-tdd",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --watchAll --detectOpenHandles"
+    },
+
+    "jest": {
+        "collectCoverage": true,
+        "coverageReporters": [
+            "json",
+            "html"
+        ]
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.2",
+        "mongoose": "^6.1.2",
+        "node-mocks-http": "^1.11.0",
+        "nodemon": "^2.0.15",
+        "sequelize": "^6.12.1",
+        "supertest": "^6.1.6"
+    },
+    "devDependencies": {
+        "jest": "^27.4.5"
+    }
+}
